@@ -58,7 +58,7 @@ class DrugAPI:
 
         Args:
         - drug_name (str): Name of the drug.
-        - property (str): Property to fetch (e.g., CanonicalSMILES, IsomericSMILES).
+        - property (str): Property to fetch (e.g., CanonicalSMILES,IsomericSMILES -> when entering arguments, do not use spaces!).
         """
         url = f'{self.base_url}/{drug_name}/property/{property}/CSV'
         try:
@@ -77,7 +77,7 @@ class DrugAPI:
         Fetches specified properties for all drugs in the drug list.
 
         Args:
-        - property (str): Properties to fetch for each drug (comma-separated).
+        - property (str): Properties to fetch for each drug (comma-separated -> when entering arguments, do not use spaces!).
 
         Returns:
         - pd.DataFrame: DataFrame containing fetched data.

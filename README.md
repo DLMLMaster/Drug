@@ -10,12 +10,7 @@
   * [Attribution](#attribution)
 
 ## Installation
-
-Download using pip via pypi.
-
 ```bash
-$ pip install Drug --upgrade
-  or
 $ pip install git+https://github.com/DLMLMaster/Drug.git
 ```
 (Mac/homebrew users may need to use ``pip3``)
